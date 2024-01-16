@@ -25,8 +25,8 @@ A site made for users to scan a QR code that directs users to the frontendmentor
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/r-ddle/QR-code-component-solution)
+- Live Site URL: [Vercel](https://qr-code-component-solution-eight-rho.vercel.app/)
 
 ## My process
 
