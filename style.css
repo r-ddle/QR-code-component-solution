@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Outfit:700|Outfit:400');
+
+body {
+  font-family: 'Outfit';
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Outfit';
+  font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: hsl(220, 15%, 55%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 350px;
+    height: 515px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background: hsl(212, 45%, 89%);
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+
+.card h2 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card p {
+    font-weight: 400;
+    color: rgb(117, 110, 110);
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card img {
+    width: 90%;
+    border-radius: 5%;
+    margin-bottom: 25px;
+}
+
+.attribution {
+    margin-top: 40px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
